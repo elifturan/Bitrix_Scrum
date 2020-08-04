@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Bitrix_ScrumTeam" />
+        <module name="Bitrix_Scrum" />
       </profile>
     </annotationProcessing>
   </component>
