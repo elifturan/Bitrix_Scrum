@@ -1,0 +1,96 @@
+@bitrix
+Feature: Sending Messages
+  Agile Story 1 :
+  As a user , I should be able to click on upload files icon to upload files and pictures from local disks,
+ download from external drive, select documents from bixtrix24, and create files to upload.
+
+# 1. User should be able to click on upload files icon to upload files and pictures from local disks,
+# download from external drive, select documents from bixtrix24, and create files to upload.
+  @filesIcon
+  Scenario:User should be able to click on upload files icon
+    When user should be able to click on upload files icon
+    Then user should be able to  upload files
+    Then user should  be able to upload pictures from local disks
+    Then User should be able to download from external drive
+    Then user should be able to select documents from bixtrix24
+    Then user should be able to create files to upload.
+
+
+
+
+   # 2. User should be able to add users from selecting contact from E-mail user, Employees and Departments and Recent contact lists.
+    @E-mail
+    Scenario: : User should be able to add users from selecting contact from E-mail user
+    When User should be able to add users
+    Then User should be able to add users
+    Then User should be able to selecting contact from E_mail.
+
+
+     #3. User should be able to attach link by clicking on the link icon.
+     @lincIcon
+     Scenario: : User should be able to attach link by clicking on the link icon.
+     When User should be able to attach link
+     Then User should be able to attach link
+     Then User should be able to attach link by clicking on the link icon.
+
+
+
+     # 4. User should be able to insert videos by clicking on the video icon and entering the video URL.
+     @videoIcon
+     Scenario: User should be able to insert videos
+       When user login to account succesfully
+      Then user should be able to hover over to More Tab and click
+      Then user should click Appreciation option
+      Then User should be able to click insert video icon
+      Then user should be able to entering the video URL
+
+
+
+     #5. User should be able to create a quote by clicking on the Comma icon.
+     @uploadIcon
+     Scenario: User should be able to click on upload files icon to upload files and pictures
+     When User should be able to click and upload files icon
+     Then user should be able to download from external drive
+     Then user should be able to select documents from bixtrix24
+     Then user should be able to create files to upload.
+
+
+
+      #6. User should be able to add mention by clicking on the Add mention icon and select contacts from the lists provided in dropdown.          #6. User should be able to add mention by clicking on the Add mention icon and select contacts from the lists provided in dropdown.
+      @mentionIcon
+      Scenario: User should be able to add mention by clicking on the Add mention icon
+        When User should be able to click and Add mention icon
+        Then user should be able to select contacts
+        Then user should be able to select documents from bixtrix24
+
+
+     # 7. User should be able to click on Visual Editor and see the editor text-bar displays on top of the message box.
+     @dispayMessage
+    Scenario: User should be able to click on Visual Editor
+    When user should be able to click on Visual Editor
+      Then user should click Visual Editor
+      Then user should be able to see the editor text-bar displays
+      Then user should be able to see the editor text-bar displays on top of the message box.
+
+     #8. User should be able to click on the Topic icon to see the Message Topic text box displays on top of the message box.
+     @topicIcon
+     Scenario: User should be able to click on the Topic icon
+       When User should be able to click on the Topic icon
+       Then user should be able to click on the Topic icon
+       Then user should be able to see the Message Topic
+       Then user should be able to see text box displays
+       Then user should be able to  see the Message Topic text box displays on top of the message box.
+
+
+
+     #9. User should be able to click on "Record Video" tab to record a video and attach it with the message.
+       @recordVideo
+       Scenario: User should be able to click on "Record Video" tab
+       When user login to account succesfully
+       Then user should be able to hover over to More Tab and click
+       Then user should click Appreciation option
+       Then user should be able to click on "Record Video" tab
+       Then user should be able to record a video and attach it with with the message
+
+
+ @filesIcon, @E-mail,   @lincIcon,  @videoIcon,  @uploadIcon, @mentionIcon, @dispayMessage,  @topicIcon,    @recordVideo
