@@ -9,9 +9,9 @@ import org.junit.runner.RunWith;
 @CucumberOptions ( plugin = {"html:target/cucumber-report.html"
 },
         features = "src/test/resources/features" ,
-glue = "com/Bitrix24/step_definitions",
+        glue = "com/Bitrix24/step_definitions",
 
-        tags = ""
+        tags = "@Access"
 )
 
 
